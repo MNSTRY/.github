@@ -1,0 +1,23 @@
+{
+  "organization": "MNSTRY",
+  "exclude": [
+    ".github"
+  ],
+  "repositories": {
+    "atelier": {
+      "displayName": "MNSTRY Atelier",
+      "documentationUrl": "https://docs.mnstry.ai/public-product/developers/atelier",
+      "includeHomepage": false,
+      "packageName": "@mnstry/atelier",
+      "order": 10,
+      "topics": [
+        "local-first",
+        "knowledge-graph",
+        "governance",
+        "ontology",
+        "authoring",
+        "validation"
+      ]
+    }
+  }
+}

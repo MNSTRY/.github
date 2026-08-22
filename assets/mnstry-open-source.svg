@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">MNSTRY open source</title>
+  <desc id="description">Transformation is your work. MNSTRY is where it lives.</desc>
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080706"/>
+      <stop offset="0.55" stop-color="#15110c"/>
+      <stop offset="1" stop-color="#080706"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(238 123) rotate(18) scale(510 280)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ca8701" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ca8701" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f1c465"/>
+      <stop offset="0.5" stop-color="#ca8701"/>
+      <stop offset="1" stop-color="#8b5700"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#ground)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#glow)"/>
+  <path d="M0 255 C220 212 383 274 612 235 C815 200 983 220 1200 172" fill="none" stroke="#ca8701" stroke-opacity="0.09"/>
+  <path d="M0 282 C231 239 398 297 626 259 C814 228 1016 244 1200 203" fill="none" stroke="#f1c465" stroke-opacity="0.05"/>
+
+  <circle cx="143" cy="146" r="86" fill="#ca8701" fill-opacity="0.08" filter="url(#soft)"/>
+  <g transform="translate(76 75) scale(.44)" fill="none" stroke="url(#gold)" stroke-linejoin="round" stroke-width="7">
+    <polygon points="253.1 8.5 8.2 190.4 288.2 311.6 253.1 8.5"/>
+    <polyline points="253.1 8.5 183.2 170.2 288.2 311.6 183.2 170.2 8.2 190.4 183.2 170.2"/>
+  </g>
+
+  <text x="252" y="107" fill="#f5efe4" font-family="Figtree, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="52" font-weight="700" letter-spacing="8">MNSTRY</text>
+  <text x="256" y="139" fill="#ca8701" font-family="Figtree, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="650" letter-spacing="4">OPEN SOURCE</text>
+  <line x1="256" y1="169" x2="1080" y2="169" stroke="#f5efe4" stroke-opacity="0.12"/>
+  <text x="256" y="215" fill="#f5efe4" font-family="Figtree, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="30" font-weight="560">Transformation is your work.</text>
+  <text x="256" y="254" fill="#b8ad9e" font-family="Figtree, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">MNSTRY is where it lives.</text>
+
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="27.5" fill="none" stroke="#f1c465" stroke-opacity="0.16"/>
+</svg>

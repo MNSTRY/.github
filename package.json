@@ -1,0 +1,14 @@
+{
+  "name": "@mnstry/github-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0 <23"
+  },
+  "scripts": {
+    "profile:update": "node scripts/update-profile.mjs",
+    "profile:check": "node scripts/update-profile.mjs --check",
+    "test": "node --test"
+  }
+}
