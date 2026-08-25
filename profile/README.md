@@ -23,14 +23,14 @@ Not everything MNSTRY builds is open source. Everything listed below is.
 
 Local governance toolkit for file-based bodies of work. Front-matter ontology, deterministic knowledge graph, fail-closed boundaries, offline conformance.
 
-JavaScript · Apache-2.0 · [v0.2.0-alpha.4](https://github.com/MNSTRY/atelier/tree/v0.2.0-alpha.4) · Updated 16 Aug 2026
+JavaScript · Apache-2.0 · [v0.2.0-alpha.5](https://github.com/MNSTRY/atelier/releases/tag/v0.2.0-alpha.5) · Updated 25 Aug 2026
 
 [Repository](https://github.com/MNSTRY/atelier) · [Documentation](https://docs.mnstry.ai/public-product/developers/atelier) · [Issues](https://github.com/MNSTRY/atelier/issues)
 
 `local-first` `knowledge-graph` `governance` `ontology` `authoring` `validation`
 
 ```sh
-npm install --save-dev @mnstry/atelier@0.2.0-alpha.4
+npm install --save-dev @mnstry/atelier@0.2.0-alpha.5
 ```
 <!-- mnstry:repositories:end -->
 
