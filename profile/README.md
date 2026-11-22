@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/mnstry-open-source.svg" width="100%" alt="MNSTRY open source. Transformation is your work. MNSTRY is where it lives.">
+  <img src="../assets/mnstry-open-source.svg" width="100%" alt="MNSTRY open source. Technology in service of a flourishing human life.">
 </p>
 
 <p align="center">
