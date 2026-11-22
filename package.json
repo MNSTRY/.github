@@ -7,6 +7,8 @@
     "node": ">=22.18.0 <23"
   },
   "scripts": {
+    "banner:render": "node scripts/render-brand-banner.mjs",
+    "banner:check": "node scripts/render-brand-banner.mjs --check",
     "profile:update": "node scripts/update-profile.mjs",
     "profile:check": "node scripts/update-profile.mjs --check",
     "test": "node --test"

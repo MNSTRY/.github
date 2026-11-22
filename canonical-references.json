@@ -1,0 +1,54 @@
+{
+  "schema": "mnstry.canonical-references@v1",
+  "surface": "github-profile",
+  "updatedAt": "2026-11-22",
+  "authorities": {
+    "designSystem": {
+      "repository": "https://github.com/MNSTRY/design-studio",
+      "branch": "main",
+      "syncedCommit": "563ca8011400b504d09561e1f8fdd5e6ea0597f4",
+      "syncedDate": "2026-11-19",
+      "files": {
+        "palette": "packages/ui/src/themes/mnstry-identity-palette.ts",
+        "identityContract": "packages/ui/src/components/branding/mnstry-identity-contract.ts",
+        "drawnName": "packages/ui/src/components/branding/mnstry-name-drawing.ts",
+        "tenantTheme": "design/themes/mnstry.json"
+      },
+      "adoptedDrawings": {
+        "mark": "M08",
+        "wordmark": "W36"
+      }
+    },
+    "publicSurfaces": {
+      "website": "https://github.com/MNSTRY/website",
+      "docs": "https://github.com/MNSTRY/mnstry/tree/staging/apps/docs",
+      "researchOrg": "https://github.com/MNSTRY/org"
+    }
+  },
+  "canonicalPalette": {
+    "source": "MNSTRY/design-studio@563ca801:packages/ui/src/themes/mnstry-identity-palette.ts",
+    "tokens": {
+      "ground": "#251C3A",
+      "groundRaised": "#362B52",
+      "invitation": "#2A2140",
+      "goldQuintessence": "#F0D595",
+      "goldTurn": "#DDAE4B",
+      "goldFlat": "#E6C270",
+      "gold": "#E1B966",
+      "goldDeep": "#A8833D",
+      "goldSun": "#CA8701",
+      "goldQuiet": "#9C8250",
+      "lilac": "#DDC9FE",
+      "violet": "#B49CE0",
+      "violetDeep": "#8E6FD6",
+      "violetMid": "#9178BE",
+      "violetShade": "#8066B2",
+      "violetEdge": "#8368AC",
+      "rose": "#E6B0A8",
+      "ink": "#EFEAF7",
+      "mist": "#BDB5D3",
+      "line": "#574B7C",
+      "inkOnGold": "#1F1633"
+    }
+  }
+}
